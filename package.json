@@ -1,0 +1,35 @@
+{
+  "name": "devops-test-app",
+  "version": "1.0.0",
+  "description": "this is a nodejs app",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node ./app.js",
+    "test": "jest ",
+    "build": "echo Test build completed! No packages was uploaded."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EBoxBeat/devops-test-app.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "babel"
+  ],
+  "author": "Elad Rovek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EBoxBeat/devops-test-app/issues"
+  },
+  "homepage": "https://github.com/EBoxBeat/devops-test-app#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset": "^1.1.7",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.17.1",
+    "jest": "^27.4.3"
+  }
+}
